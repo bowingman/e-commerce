@@ -10645,7 +10645,7 @@ __metadata:
     redux: ^4.2.0
     redux-form-material-ui: ^4.3.4
     redux-thunk: ^2.4.2
-    regenerator-runtime: ^0.13.10
+    regenerator-runtime: ^0.13.11
     sass: ^1.62.1
     sass-loader: ^13.2.0
     sharp: ^0.32.1
@@ -27448,7 +27448,7 @@ __metadata:
     redux: ^4.2.0
     redux-form-material-ui: ^4.3.4
     redux-thunk: ^2.4.2
-    regenerator-runtime: ^0.13.10
+    regenerator-runtime: ^0.13.11
     sass: ^1.62.1
     sass-loader: ^13.2.0
     sharp: ^0.32.1
