@@ -7818,7 +7818,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.0, @types/react-dom@npm:^18.2.4":
+"@types/react-dom@npm:^18.0.0":
   version: 18.2.4
   resolution: "@types/react-dom@npm:18.2.4"
   dependencies:
@@ -7827,12 +7827,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.9":
-  version: 18.0.9
-  resolution: "@types/react-dom@npm:18.0.9"
+"@types/react-dom@npm:^18.2.7":
+  version: 18.2.7
+  resolution: "@types/react-dom@npm:18.2.7"
   dependencies:
     "@types/react": "*"
-  checksum: e744e3feba25fc43733289d4df4d9c0e59fcca7f34e8c89d75f81a339accb2bd70236d69382d47d2c0ad06a1529b2e56aa6171fe175854d60e07156ddceedfcb
+  checksum: e02ea908289a7ad26053308248d2b87f6aeafd73d0e2de2a3d435947bcea0422599016ffd1c3e38ff36c42f5e1c87c7417f05b0a157e48649e4a02f21727d54f
   languageName: node
   linkType: hard
 
@@ -8696,7 +8696,7 @@ __metadata:
     "@types/jest": ^27.5.2
     "@types/node": ^20.1.3
     "@types/react": ^18.2.6
-    "@types/react-dom": ^18.2.4
+    "@types/react-dom": ^18.2.7
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
@@ -10558,7 +10558,7 @@ __metadata:
     "@types/node": ^20.1.3
     "@types/nodemailer": ^6.4.8
     "@types/react": ^18.0.25
-    "@types/react-dom": ^18.0.9
+    "@types/react-dom": ^18.2.7
     "@types/react-redux": ^7.1.24
     "@types/react-router-dom": ^5.3.3
     "@types/sharp": ^0.31.0
@@ -12965,7 +12965,7 @@ __metadata:
     prettier-plugin-tailwindcss: ^0.3.0
     prism-react-renderer: ^1.3.5
     react: ^17.0.2
-    react-dom: ^17.0.2
+    react-dom: ^18.2.0
     react-final-form: ^6.5.9
     tailwindcss: ^3.3.2
     typescript: ^4.7.4
@@ -24424,19 +24424,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react-dom@npm:17.0.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-    scheduler: ^0.20.2
-  peerDependencies:
-    react: 17.0.2
-  checksum: 1c1eaa3bca7c7228d24b70932e3d7c99e70d1d04e13bb0843bbf321582bc25d7961d6b8a6978a58a598af2af496d1cedcfb1bf65f6b0960a0a8161cb8dab743c
-  languageName: node
-  linkType: hard
-
 "react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
@@ -26239,16 +26226,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.20.2":
-  version: 0.20.2
-  resolution: "scheduler@npm:0.20.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: c4b35cf967c8f0d3e65753252d0f260271f81a81e427241295c5a7b783abf4ea9e905f22f815ab66676f5313be0a25f47be582254db8f9241b259213e999b8fc
-  languageName: node
-  linkType: hard
-
 "scheduler@npm:^0.23.0":
   version: 0.23.0
   resolution: "scheduler@npm:0.23.0"
@@ -27368,7 +27345,7 @@ __metadata:
     "@types/node": ^20.1.3
     "@types/nodemailer": ^6.4.8
     "@types/react": ^18.0.25
-    "@types/react-dom": ^18.0.9
+    "@types/react-dom": ^18.2.7
     "@types/react-redux": ^7.1.24
     "@types/react-router-dom": ^5.3.3
     "@types/sharp": ^0.31.0
