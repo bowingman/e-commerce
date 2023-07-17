@@ -7337,13 +7337,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/events@npm:*":
-  version: 3.0.0
-  resolution: "@types/events@npm:3.0.0"
-  checksum: 9a424c2da210957d5636e0763e8c9fc3aaeee35bf411284ddec62a56a6abe31de9c7c2e713dabdd8a76ff98b47db2bd52f61310be6609641d6234cc842ecbbe3
-  languageName: node
-  linkType: hard
-
 "@types/express-serve-static-core@npm:*":
   version: 4.17.31
   resolution: "@types/express-serve-static-core@npm:4.17.31"
@@ -7390,13 +7383,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/formidable@npm:1.0.31":
-  version: 1.0.31
-  resolution: "@types/formidable@npm:1.0.31"
+"@types/formidable@npm:3.4.0":
+  version: 3.4.0
+  resolution: "@types/formidable@npm:3.4.0"
   dependencies:
-    "@types/events": "*"
     "@types/node": "*"
-  checksum: 025f59bf8b917cdfd794379a8acd0012481a63fa6ac307033d3b1f0935e002b0cddee67476a7dd988d27cc288d0ca9fdda4b13700525acfdae44b62a70115736
+  checksum: 8136835e4964015a389595bea39a271e65fa8dce2590770b0e69cb8f29cbd2cd2f7376a8714766fda5796838c426929a3f575cdd565ecf0f19b048f40e0d456f
   languageName: node
   linkType: hard
 
@@ -10545,7 +10537,7 @@ __metadata:
     "@tinymce/tinymce-react": ^4.2.0
     "@types/bcrypt": ^5.0.0
     "@types/dompurify": ^3.0.2
-    "@types/formidable": 1.0.31
+    "@types/formidable": 3.4.0
     "@types/fs-extra": ^9.0.13
     "@types/jsonwebtoken": ^8.5.9
     "@types/koa": ^2.13.6
@@ -10589,7 +10581,7 @@ __metadata:
     final-form: ^4.20.7
     final-form-arrays: ^3.0.2
     fork-ts-checker-webpack-plugin: ^8.0.0
-    formidable: ^1.2.1
+    formidable: ^3.5.0
     fs-extra: ^10.1.0
     handlebars: ^4.7.7
     helmet: ^6.0.0
@@ -12879,6 +12871,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dezalgo@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "dezalgo@npm:1.0.4"
+  dependencies:
+    asap: ^2.0.0
+    wrappy: 1
+  checksum: 895389c6aead740d2ab5da4d3466d20fa30f738010a4d3f4dcccc9fc645ca31c9d10b7e1804ae489b1eb02c7986f9f1f34ba132d409b043082a86d9a4e745624
+  languageName: node
+  linkType: hard
+
 "didyoumean@npm:^1.2.2":
   version: 1.2.2
   resolution: "didyoumean@npm:1.2.2"
@@ -15070,13 +15072,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"formidable@npm:^1.2.1":
-  version: 1.2.6
-  resolution: "formidable@npm:1.2.6"
-  checksum: 2b68ed07ba88302b9c63f8eda94f19a460cef6017bfda48348f09f41d2a36660c9353137991618e0e4c3db115b41e4b8f6fa63bc973b7a7c91dec66acdd02a56
-  languageName: node
-  linkType: hard
-
 "formidable@npm:^2.0.1":
   version: 2.0.1
   resolution: "formidable@npm:2.0.1"
@@ -15086,6 +15081,17 @@ __metadata:
     once: 1.4.0
     qs: 6.9.3
   checksum: b35445444e7b6f6f3cacbadd5e6fadd6b5b2e83162e7c41fa22586df584cc515bbd1ee0dc2b701ce031fcb000d71769bc77bd0958db8a89a0ceb8b2227bdc695
+  languageName: node
+  linkType: hard
+
+"formidable@npm:^3.5.0":
+  version: 3.5.0
+  resolution: "formidable@npm:3.5.0"
+  dependencies:
+    dezalgo: ^1.0.4
+    hexoid: ^1.0.0
+    once: ^1.4.0
+  checksum: 7b86a39987b93a22c1d57491b1a320f7f56320b34976077e1baaef452cadb43525bf523fe0fa6d8becfc8e6f5721f92dee8de56c0f18f2de1055da80972ecfc3
   languageName: node
   linkType: hard
 
@@ -15925,7 +15931,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexoid@npm:1.0.0":
+"hexoid@npm:1.0.0, hexoid@npm:^1.0.0":
   version: 1.0.0
   resolution: "hexoid@npm:1.0.0"
   checksum: 27a148ca76a2358287f40445870116baaff4a0ed0acc99900bf167f0f708ffd82e044ff55e9949c71963852b580fc024146d3ac6d5d76b508b78d927fa48ae2d
@@ -26536,7 +26542,7 @@ __metadata:
     "@sentry/node": ^7.51.2
     "@stripe/stripe-js": ^1.44.1
     "@types/bcrypt": ^5.0.0
-    "@types/formidable": 1.0.31
+    "@types/formidable": 3.4.0
     "@types/fs-extra": ^9.0.13
     "@types/jsonwebtoken": ^8.5.9
     "@types/koa": ^2.13.6
@@ -26550,7 +26556,7 @@ __metadata:
     axios: ^1.4.0
     bcrypt: ^5.1.0
     cezerin2-client: ^0.38.0
-    formidable: ^1.2.1
+    formidable: ^3.5.0
     fs-extra: ^10.1.0
     handlebars: ^4.7.7
     helmet: ^6.0.0
@@ -27355,7 +27361,7 @@ __metadata:
     "@tinymce/tinymce-react": ^4.2.0
     "@types/bcrypt": ^5.0.0
     "@types/dompurify": ^3.0.2
-    "@types/formidable": 1.0.31
+    "@types/formidable": 3.4.0
     "@types/fs-extra": ^9.0.13
     "@types/jsonwebtoken": ^8.5.9
     "@types/koa": ^2.13.6
@@ -27392,7 +27398,7 @@ __metadata:
     final-form: ^4.20.7
     final-form-arrays: ^3.0.2
     fork-ts-checker-webpack-plugin: ^8.0.0
-    formidable: ^1.2.1
+    formidable: ^3.5.0
     fs-extra: ^10.1.0
     handlebars: ^4.7.7
     helmet: ^6.0.0
