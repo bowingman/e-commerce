@@ -10586,7 +10586,7 @@ __metadata:
     eslint-plugin-jsx-a11y: ^6.6.1
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-react: ^7.31.10
-    final-form: ^4.20.7
+    final-form: ^4.20.9
     final-form-arrays: ^3.0.2
     fork-ts-checker-webpack-plugin: ^8.0.0
     formidable: ^1.2.1
@@ -14786,15 +14786,6 @@ __metadata:
   peerDependencies:
     final-form: ^4.18.2
   checksum: bed684815967fa3e5b2cc91eb69e5d88e1048a5dbe421e2eb61b90434c634a09fec877ce52c85add8d009c20c052b6f2a884277d7ca80e9a628944a012d20205
-  languageName: node
-  linkType: hard
-
-"final-form@npm:^4.20.7":
-  version: 4.20.7
-  resolution: "final-form@npm:4.20.7"
-  dependencies:
-    "@babel/runtime": ^7.10.0
-  checksum: 0e2a9a9cf70814e1099da38e8a79ff6dc2862f07217dae041ba70c5a4bcc8284c74b0500f00b4935331f5fbe7dc119f63ca4776495ecc8c486c939daa23598ec
   languageName: node
   linkType: hard
 
@@ -27389,7 +27380,7 @@ __metadata:
     css-loader: ^6.7.2
     cssnano: ^5.1.14
     dompurify: ^3.0.3
-    final-form: ^4.20.7
+    final-form: ^4.20.9
     final-form-arrays: ^3.0.2
     fork-ts-checker-webpack-plugin: ^8.0.0
     formidable: ^1.2.1
