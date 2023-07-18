@@ -10622,7 +10622,7 @@ __metadata:
     nodemailer: ^6.9.3
     postcss-loader: ^7.3.2
     prop-types: ^15.8.1
-    query-string: ^7.1.1
+    query-string: ^8.1.0
     razzle: ^4.2.18
     razzle-dev-utils: ^4.2.18
     razzle-plugin-scss: ^4.2.18
@@ -11048,7 +11048,7 @@ __metadata:
     c8: ^7.12.0
     cross-fetch: ^3.1.5
     parcel: ^2.6.2
-    query-string: ^6.1.0
+    query-string: ^8.1.0
     ts-node: ^10.9.1
     typescript: ^4.7.4
   languageName: unknown
@@ -12566,6 +12566,13 @@ __metadata:
   version: 0.2.0
   resolution: "decode-uri-component@npm:0.2.0"
   checksum: f3749344ab9305ffcfe4bfe300e2dbb61fc6359e2b736812100a3b1b6db0a5668cba31a05e4b45d4d63dbf1a18dfa354cd3ca5bb3ededddabb8cd293f4404f94
+  languageName: node
+  linkType: hard
+
+"decode-uri-component@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "decode-uri-component@npm:0.4.1"
+  checksum: 0473924860986fb6ca19ee65a2af13e08801b4f3660475b058500ea8479ed715c919884a026b6bf4296dbb640d3cea74fadf45490b2439152fc548271d0201ec
   languageName: node
   linkType: hard
 
@@ -14777,6 +14784,13 @@ __metadata:
   version: 1.1.0
   resolution: "filter-obj@npm:1.1.0"
   checksum: cf2104a7c45ff48e7f505b78a3991c8f7f30f28bd8106ef582721f321f1c6277f7751aacd5d83026cb079d9d5091082f588d14a72e7c5d720ece79118fa61e10
+  languageName: node
+  linkType: hard
+
+"filter-obj@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "filter-obj@npm:5.1.0"
+  checksum: ba7c24d9b2c0552ee87d268e07eca74483af61fb740545ffa809f7e9e5294de38cf163ecc55af0e8a40020af9a49512c32f4022de2a858b110420fc8bffa7c9c
   languageName: node
   linkType: hard
 
@@ -23993,15 +24007,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"query-string@npm:^7.1.1":
-  version: 7.1.1
-  resolution: "query-string@npm:7.1.1"
+"query-string@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "query-string@npm:8.1.0"
   dependencies:
-    decode-uri-component: ^0.2.0
-    filter-obj: ^1.1.0
-    split-on-first: ^1.0.0
-    strict-uri-encode: ^2.0.0
-  checksum: b227d1f588ae93f9f0ad078c6b811295fa151dc5a160a03bb2bac5fa0e6919cb1daa570aad1d288e77c8e89fde5362ba505b1014e6e793da9b1e885b59a690a6
+    decode-uri-component: ^0.4.1
+    filter-obj: ^5.1.0
+    split-on-first: ^3.0.0
+  checksum: 16fe49ab714f2b802bd31bc417876a38a82cd49bea01c0d6c37ca3439604c774752c8c66f9eda5ee33c268de2fc2a65e0e0e27aa97d8d98159af5c1fc838a017
   languageName: node
   linkType: hard
 
@@ -26567,7 +26580,7 @@ __metadata:
     mongodb: ^3.1.4
     mongoose: ^7.2.2
     nodemailer: ^6.9.3
-    query-string: ^7.1.1
+    query-string: ^8.1.0
     sharp: ^0.32.1
     slug: ^8.2.2
     stripe: ^12.9.0
@@ -27157,6 +27170,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"split-on-first@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "split-on-first@npm:3.0.0"
+  checksum: 75dc27ecbac65cfbeab9a3b90cf046307220192d3d7a30e46aa0f19571cc9b4802aac813f3de2cc9b16f2e46aae72f275659b5d2614bb5369c77724d739e5f73
+  languageName: node
+  linkType: hard
+
 "split-string@npm:^3.0.1, split-string@npm:^3.0.2":
   version: 3.1.0
   resolution: "split-string@npm:3.1.0"
@@ -27425,7 +27445,7 @@ __metadata:
     nodemailer: ^6.9.3
     postcss-loader: ^7.3.2
     prop-types: ^15.8.1
-    query-string: ^7.1.1
+    query-string: ^8.1.0
     razzle: ^4.2.18
     razzle-dev-utils: ^4.2.18
     razzle-plugin-scss: ^4.2.18
