@@ -7559,12 +7559,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jsonwebtoken@npm:^8.5.9":
-  version: 8.5.9
-  resolution: "@types/jsonwebtoken@npm:8.5.9"
+"@types/jsonwebtoken@npm:^9.0.2":
+  version: 9.0.2
+  resolution: "@types/jsonwebtoken@npm:9.0.2"
   dependencies:
     "@types/node": "*"
-  checksum: 33815ab02d1371b423118316b7706d2f2ec03eeee5e1494be72da50425d2384e5e0a09ea193f7a5ab4b4f6a9c5847147305f50e965f3d927a95bdf8adb471b2a
+  checksum: 3bb8d40e78d7eb53e427db6e9f0f22e0890cfee80965dcf741d08341814913afb211306de6e9847c6d241cc8e36f8a59090cbfdcc510ab7c81af9d650c5afe0e
   languageName: node
   linkType: hard
 
@@ -10547,7 +10547,7 @@ __metadata:
     "@types/dompurify": ^3.0.2
     "@types/formidable": 1.0.31
     "@types/fs-extra": ^9.0.13
-    "@types/jsonwebtoken": ^8.5.9
+    "@types/jsonwebtoken": ^9.0.2
     "@types/koa": ^2.13.6
     "@types/koa-compress": ^4.0.3
     "@types/koa-mount": ^4.0.2
@@ -10599,7 +10599,7 @@ __metadata:
     i18next-browser-languagedetector: ^7.0.1
     i18next-http-backend: ^2.2.0
     isomorphic-dompurify: ^0.24.0
-    jsonwebtoken: ^8.5.1
+    jsonwebtoken: ^9.0.1
     koa: ^2.14.2
     koa-body: ^6.0.1
     koa-compress: ^5.1.0
@@ -18970,6 +18970,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsonwebtoken@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "jsonwebtoken@npm:9.0.1"
+  dependencies:
+    jws: ^3.2.2
+    lodash: ^4.17.21
+    ms: ^2.1.1
+    semver: ^7.3.8
+  checksum: 0eafe268896f4e8f9ab1f0f20e8c645721b7a9cddc41c0aba1e58da5c34564e8c9990817c1a5b646d795bcbb1339350826fe57c4569b5379ba9eea4a9aa5bbd0
+  languageName: node
+  linkType: hard
+
 "jsx-ast-utils@npm:^2.4.1 || ^3.0.0, jsx-ast-utils@npm:^3.3.2, jsx-ast-utils@npm:^3.3.3":
   version: 3.3.3
   resolution: "jsx-ast-utils@npm:3.3.3"
@@ -26538,7 +26550,7 @@ __metadata:
     "@types/bcrypt": ^5.0.0
     "@types/formidable": 1.0.31
     "@types/fs-extra": ^9.0.13
-    "@types/jsonwebtoken": ^8.5.9
+    "@types/jsonwebtoken": ^9.0.2
     "@types/koa": ^2.13.6
     "@types/koa-compress": ^4.0.3
     "@types/koa__cors": ^3.3.0
@@ -26554,7 +26566,7 @@ __metadata:
     fs-extra: ^10.1.0
     handlebars: ^4.7.7
     helmet: ^6.0.0
-    jsonwebtoken: ^8.5.1
+    jsonwebtoken: ^9.0.1
     koa: ^2.14.2
     koa-body: ^6.0.1
     koa-compress: ^5.1.0
@@ -27357,7 +27369,7 @@ __metadata:
     "@types/dompurify": ^3.0.2
     "@types/formidable": 1.0.31
     "@types/fs-extra": ^9.0.13
-    "@types/jsonwebtoken": ^8.5.9
+    "@types/jsonwebtoken": ^9.0.2
     "@types/koa": ^2.13.6
     "@types/koa-compress": ^4.0.3
     "@types/koa-mount": ^4.0.2
@@ -27402,7 +27414,7 @@ __metadata:
     i18next-browser-languagedetector: ^7.0.1
     i18next-http-backend: ^2.2.0
     isomorphic-dompurify: ^0.24.0
-    jsonwebtoken: ^8.5.1
+    jsonwebtoken: ^9.0.1
     koa: ^2.14.2
     koa-body: ^6.0.1
     koa-compress: ^5.1.0
