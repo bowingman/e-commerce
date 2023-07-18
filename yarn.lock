@@ -7053,16 +7053,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinymce/tinymce-react@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "@tinymce/tinymce-react@npm:4.2.0"
+"@tinymce/tinymce-react@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@tinymce/tinymce-react@npm:4.3.0"
   dependencies:
     prop-types: ^15.6.2
-    tinymce: ^6.0.0 || ^5.5.1
+    tinymce: ^6.3.1
   peerDependencies:
     react: ^18.0.0 || ^17.0.1 || ^16.7.0
     react-dom: ^18.0.0 || ^17.0.1 || ^16.7.0
-  checksum: 4aed633830e79aff8c1ba3518180f9a12edecc3c681d150cb7959e2b04d6c6d0af2fed97d3ef6afae5722c0c1fe5499da648756621e3ecf2f2bc48aeb614947b
+  checksum: 73b3765ae9bacc58df760c1bb8968fc6c8dd498373a8f99f782292f0c3bbc4c1ff71d6aaa1d8ac66349a79ebfc6091698c2891532c3efd8f795399b59bb427b8
   languageName: node
   linkType: hard
 
@@ -10542,7 +10542,7 @@ __metadata:
     "@sentry/tracing": ^7.51.2
     "@stripe/react-stripe-js": ^1.15.0
     "@stripe/stripe-js": ^1.44.1
-    "@tinymce/tinymce-react": ^4.2.0
+    "@tinymce/tinymce-react": ^4.3.0
     "@types/bcrypt": ^5.0.0
     "@types/dompurify": ^3.0.2
     "@types/formidable": 1.0.31
@@ -27352,7 +27352,7 @@ __metadata:
     "@sentry/tracing": ^7.51.2
     "@stripe/react-stripe-js": ^1.15.0
     "@stripe/stripe-js": ^1.44.1
-    "@tinymce/tinymce-react": ^4.2.0
+    "@tinymce/tinymce-react": ^4.3.0
     "@types/bcrypt": ^5.0.0
     "@types/dompurify": ^3.0.2
     "@types/formidable": 1.0.31
@@ -28351,10 +28351,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinymce@npm:^6.0.0 || ^5.5.1":
-  version: 6.1.2
-  resolution: "tinymce@npm:6.1.2"
-  checksum: 9069dac3f503f36802ac34a91ca8297d433d92543e3a79437cb97ca9742e95582a446a67cbafea8c1a4ac0a4ae4026bdfb522b5fda4a1c15868ef5e25dc63111
+"tinymce@npm:^6.3.1":
+  version: 6.6.0
+  resolution: "tinymce@npm:6.6.0"
+  checksum: d92421c69c0363c60e758d99566f5a2f51a252fd8ddbf7b56adea7b491098770d6a4500d2676003cda89c1421d16a7ea5e4c5bb5fa1a0834d2fbbf075724b28c
   languageName: node
   linkType: hard
 
