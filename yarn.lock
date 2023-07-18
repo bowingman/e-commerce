@@ -10578,7 +10578,7 @@ __metadata:
     cross-env: ^7.0.3
     css-loader: ^6.7.2
     cssnano: ^5.1.14
-    dompurify: ^3.0.3
+    dompurify: ^3.0.5
     eslint: ^8.40.0
     eslint-config-airbnb: ^19.0.4
     eslint-config-prettier: ^8.5.0
@@ -13121,10 +13121,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "dompurify@npm:3.0.3"
-  checksum: 02242f2fe6a5c078fd0cb04efc93079d73a2fe886bebb5e33100b7e52f4b9bfe5f2afb0b69cae39d9a13d7bbf54435df41494890c4abe7740429828b2dbb94d9
+"dompurify@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "dompurify@npm:3.0.5"
+  checksum: 2d9421570c833ce26ce7022955241749b646d41e8bf453f42ede9f22d0e98af482cedb7dfbf8129419eb48b351c1d677a08fc9f1cd91836ce7f6c1807a0676b2
   languageName: node
   linkType: hard
 
@@ -27388,7 +27388,7 @@ __metadata:
     cross-env: ^7.0.3
     css-loader: ^6.7.2
     cssnano: ^5.1.14
-    dompurify: ^3.0.3
+    dompurify: ^3.0.5
     final-form: ^4.20.7
     final-form-arrays: ^3.0.2
     fork-ts-checker-webpack-plugin: ^8.0.0
