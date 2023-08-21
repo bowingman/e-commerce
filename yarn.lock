@@ -10574,7 +10574,7 @@ __metadata:
     chart.js: ^2.7.2
     clean-webpack-plugin: ^4.0.0
     concurrently: ^8.0.1
-    core-js: ^3.30.2
+    core-js: ^3.32.1
     cross-env: ^7.0.3
     css-loader: ^6.7.2
     cssnano: ^5.1.14
@@ -11704,10 +11704,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.19.2, core-js@npm:^3.23.3, core-js@npm:^3.30.2":
+"core-js@npm:^3.19.2, core-js@npm:^3.23.3":
   version: 3.30.2
   resolution: "core-js@npm:3.30.2"
   checksum: 73d47e2b9d9f502800973982d08e995bbf04832e20b04e04be31dd7607247158271315e9328788a2408190e291c7ffbefad141167b1e57dea9f983e1e723541e
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.32.1":
+  version: 3.32.1
+  resolution: "core-js@npm:3.32.1"
+  checksum: e4af91d9c6be7b59235feb3f273d16705126ce09a0b4a787144d131d874f0cd10be3c24fc52e5eea7d7cb03ceabe4be7b255abcd9474b5eb1ff365d2c5611f9a
   languageName: node
   linkType: hard
 
@@ -27384,7 +27391,7 @@ __metadata:
     chart.js: ^2.7.2
     clean-webpack-plugin: ^4.0.0
     concurrently: ^8.0.1
-    core-js: ^3.30.2
+    core-js: ^3.32.1
     cross-env: ^7.0.3
     css-loader: ^6.7.2
     cssnano: ^5.1.14
