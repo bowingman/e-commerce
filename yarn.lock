@@ -10646,7 +10646,7 @@ __metadata:
     redux-form-material-ui: ^4.3.4
     redux-thunk: ^2.4.2
     regenerator-runtime: ^0.13.10
-    sass: ^1.62.1
+    sass: ^1.67.0
     sass-loader: ^13.2.0
     sharp: ^0.32.1
     sitemap: ^7.1.1
@@ -26201,16 +26201,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.62.1":
-  version: 1.62.1
-  resolution: "sass@npm:1.62.1"
+"sass@npm:^1.67.0":
+  version: 1.67.0
+  resolution: "sass@npm:1.67.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 1b1b3584b38a63dd94156b65f13b90e3f84b170a38c3d5e3fa578b7a32a37aeb349b4926b0eaf9448d48e955e86b1ee01b13993f19611dad8068af07a607c13b
+  checksum: 9e7566e8b7386cf265dddcdb266a023fb5759c5a8f48a11da199c8bf419e5f08f4ff6404d85d6bf5eac01e1f7c7061fdb6b7b65cbfda164e59b0a06b72ac8567
   languageName: node
   linkType: hard
 
@@ -27449,7 +27449,7 @@ __metadata:
     redux-form-material-ui: ^4.3.4
     redux-thunk: ^2.4.2
     regenerator-runtime: ^0.13.10
-    sass: ^1.62.1
+    sass: ^1.67.0
     sass-loader: ^13.2.0
     sharp: ^0.32.1
     sitemap: ^7.1.1
