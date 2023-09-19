@@ -33,7 +33,7 @@
     "mongoose": "^7.2.2",
     "nodemailer": "^6.9.3",
     "query-string": "^7.1.1",
-    "sharp": "^0.32.1",
+    "sharp": "^0.32.6",
     "slug": "^8.2.2",
     "stripe": "^12.9.0",
     "ua-parser-js": "^1.0.32",
