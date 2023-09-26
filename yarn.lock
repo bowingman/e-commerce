@@ -6463,6 +6463,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry-internal/tracing@npm:7.71.0":
+  version: 7.71.0
+  resolution: "@sentry-internal/tracing@npm:7.71.0"
+  dependencies:
+    "@sentry/core": 7.71.0
+    "@sentry/types": 7.71.0
+    "@sentry/utils": 7.71.0
+    tslib: ^2.4.1 || ^1.9.3
+  checksum: f73dadf4efc22a7df2b03b430deea71c35c9b8349eaf705078691bcd0b0640a0012c1d1c7c9a6da58a0c765927aca307486352f5eb3c0b152a9dd466da16a9e2
+  languageName: node
+  linkType: hard
+
 "@sentry/browser@npm:7.51.2":
   version: 7.51.2
   resolution: "@sentry/browser@npm:7.51.2"
@@ -6485,6 +6497,17 @@ __metadata:
     "@sentry/utils": 7.51.2
     tslib: ^1.9.3
   checksum: f0526ff9cbbea368e50e24ff3ff4b97df8e6d2bede340de69ae2362715bc30d9f1b526eff4eea1f1e891b69e5fec09d263196fa49a1dfeca7aab38e92aa79a90
+  languageName: node
+  linkType: hard
+
+"@sentry/core@npm:7.71.0":
+  version: 7.71.0
+  resolution: "@sentry/core@npm:7.71.0"
+  dependencies:
+    "@sentry/types": 7.71.0
+    "@sentry/utils": 7.71.0
+    tslib: ^2.4.1 || ^1.9.3
+  checksum: 87f7c18cf09cf690add34d9819526194b9f188eab7e607f1cb6e696770f868afd21e4139ee6868eaa5f9e874c8d64f70eaeb7e834166ff393806854e895a5750
   languageName: node
   linkType: hard
 
@@ -6530,12 +6553,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/tracing@npm:^7.51.2":
-  version: 7.51.2
-  resolution: "@sentry/tracing@npm:7.51.2"
+"@sentry/tracing@npm:^7.71.0":
+  version: 7.71.0
+  resolution: "@sentry/tracing@npm:7.71.0"
   dependencies:
-    "@sentry-internal/tracing": 7.51.2
-  checksum: df5cf9a26a2dbf9832fcc54ead3f178ac22c9a97426cf2c68e8afdbbf9899a54a806e90d1e639dc1decbaf02effb17bceb69023a719d476c2c2df5fe98a18baa
+    "@sentry-internal/tracing": 7.71.0
+  checksum: b0034a0d8e5298ee239a231c8ac1ae3a9a43dbe5301dcbe79fb50588ff0de9871a891d530cf43f84f95b9c81ccfe3bc0ca0d9b56ab8f226a5a45c5f76b0b8085
   languageName: node
   linkType: hard
 
@@ -6546,6 +6569,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry/types@npm:7.71.0":
+  version: 7.71.0
+  resolution: "@sentry/types@npm:7.71.0"
+  checksum: a49f52176011caf6d71eec1fb5b13bef023892db557ee94917d077e9a9c06c0bd81499be7f2beaae31c7fab37609be35f535426a5b9a625c726959e0af3bf1f1
+  languageName: node
+  linkType: hard
+
 "@sentry/utils@npm:7.51.2":
   version: 7.51.2
   resolution: "@sentry/utils@npm:7.51.2"
@@ -6553,6 +6583,16 @@ __metadata:
     "@sentry/types": 7.51.2
     tslib: ^1.9.3
   checksum: 626e4ceb17677f67b5276624509e14bc3849244d4ea103df25ab5a3b2f341d2a3e791d9bb366dc79aa39b4085418a7562ee16037ceb8d05eb4f1b4874a8f3d06
+  languageName: node
+  linkType: hard
+
+"@sentry/utils@npm:7.71.0":
+  version: 7.71.0
+  resolution: "@sentry/utils@npm:7.71.0"
+  dependencies:
+    "@sentry/types": 7.71.0
+    tslib: ^2.4.1 || ^1.9.3
+  checksum: 6b025e175dfcc9a6df88634ff5a87754bf5def17654524da8b530eef58a64f9e707aea010d439784a137e611520583d01fc59c7930c53a6ac7bd20ca60cfc5e2
   languageName: node
   linkType: hard
 
@@ -10539,7 +10579,7 @@ __metadata:
     "@reduxjs/toolkit": ^1.9.0
     "@sentry/node": ^7.51.2
     "@sentry/react": ^7.51.2
-    "@sentry/tracing": ^7.51.2
+    "@sentry/tracing": ^7.71.0
     "@stripe/react-stripe-js": ^1.15.0
     "@stripe/stripe-js": ^1.44.1
     "@tinymce/tinymce-react": ^4.2.0
@@ -27349,7 +27389,7 @@ __metadata:
     "@reduxjs/toolkit": ^1.9.0
     "@sentry/node": ^7.51.2
     "@sentry/react": ^7.51.2
-    "@sentry/tracing": ^7.51.2
+    "@sentry/tracing": ^7.71.0
     "@stripe/react-stripe-js": ^1.15.0
     "@stripe/stripe-js": ^1.44.1
     "@tinymce/tinymce-react": ^4.2.0
@@ -28716,6 +28756,13 @@ __metadata:
   version: 2.5.0
   resolution: "tslib@npm:2.5.0"
   checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.4.1 || ^1.9.3":
+  version: 2.6.2
+  resolution: "tslib@npm:2.6.2"
+  checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
   languageName: node
   linkType: hard
 
